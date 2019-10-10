@@ -1,0 +1,68 @@
+.navBar {
+    height: 2em;
+    margin-top: 1em;
+    background-color: #F6F6F7;
+}
+
+.navBar .navCart {
+    height: 2.5em;
+    right: 10%;
+    color: #888888;
+    font-size: 0.8em;
+    position: absolute;
+    padding: 0.6em 1.4em;
+}
+
+.navBar .navCartIconActive{
+    position: absolute;
+    right: 10%;
+    padding: 0.6em 1.4em;
+    color: black;
+    background-color: white;
+    font-size: 0.8em;
+    height: 2.6em;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    border-bottom: none;
+}
+
+
+.navBar .navCartContent {
+    padding: 20px 5px;
+    position: absolute;
+    right: 10%;
+    top: 3em;
+    border: 1px solid #cccccc;
+    z-index: 1;
+    background-color: white;
+}
+
+.navBar p {
+    font-size: 0.8em;
+    margin: 0.6em;
+}
+
+.navBar .navCartContent .row {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navHeadText {
+        display: none;
+    }
+
+    .cartContent {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .navHeadCartIcon {
+        display: none;
+    }
+
+    .cartContent {
+        width: 20%;
+    }
+}
